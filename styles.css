@@ -1,0 +1,50 @@
+/* Spotify-inspired Dark Theme */
+body {
+    background-color: #191414;
+    color: #1DB954;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    font-size: 2em;
+}
+
+h1 {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.options, .buttons {
+    margin: 20px;
+}
+
+label, select, button {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    background-color: #1DB954;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #1ED760;
+}
+
+#movieDisplay {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #FFFFFF;
+}
+
+#movieDisplay img {
+    max-width: 300px;
+    border-radius: 15px;
+    margin-top: 10px;
+}

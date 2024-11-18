@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Movie Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎬 Movie Shuffle</h1>
+    </header>
+
+    <!-- Movie Source Options -->
+    <section class="options">
+        <label for="source">Choose Movies From:</label>
+        <select id="source">
+            <option value="bollywood">Bollywood</option>
+            <option value="hollywood">Hollywood</option>
+        </select>
+    </section>
+
+    <!-- Randomize Buttons -->
+    <section class="buttons">
+        <button id="randomizeAll">Randomize All</button>
+        <button id="topMovies">Randomize Top Movies</button>
+    </section>
+
+    <!-- Display selected movie -->
+    <div id="movieDisplay"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
